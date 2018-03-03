@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>My Trivia Game</title>
+</head>
+<body>
+    <div class="jumbotron">
+              
+    <div id="gameContainer" class="container">
+        <div class="row">
+        <h1 class="text-center">My Trivia Homework Game</h1>
+        <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+        <p class="text-center start_container_btn">
+            <a class="btn btn-primary btn-lg btn-block start-button" href="#" role="button">Start Game</a>
+        </p>
+
+        </div>
+
+    
+
+
+        <div class="title">My Trivia Game</div>
+        <div id="question" class="question"></div>
+        <label class"option"><input type="ratio" name="option" value="1" /><span id="opt1"></span></label>
+        <label class"option"><input type="ratio" name="option" value="2" /><span id="opt2"></span></label>
+        <label class"option"><input type="ratio" name="option" value="3" /><span id="opt3"></span></label>
+        <label class"option"><input type="ratio" name="option" value="4" /><span id="opt3"></span></label>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+    </div>
+    <div id="resul" class="container result" style="display:none;">
+    </div>
+    
+    <script src="questions.js"></script>
+    <scritp src="quiz-script.js"></scritp>
+</body>
+</html>
