@@ -1,0 +1,52 @@
+body, html{
+	height: 100%;
+    margin: 0;
+}
+/*Background Image Parallax*/
+.bg {
+    /* The image used */
+    background-image: url("../img/beer-back2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+	background: #f1a602; /* This is for ie8 and below */
+    background: #5c2201b9; 
+
+    margin-top: 30%;
+}
+
+.fonts{
+	font-family: 'Pacifico', cursive;
+	font-family: 'Rancho', cursive;
+	font-family: 'Oswald', sans-serif;
+}
+
+input{
+	font-family: 'Rancho', cursive;
+	color:white;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	color:white;
+}
+
+legend{
+		font-family: 'Pacifico', cursive;
+		color:white;
+}
+
+.clock{
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+	color:white;
+}
+
